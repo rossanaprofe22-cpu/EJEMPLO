@@ -1,0 +1,158 @@
+
+html{ 
+  margin:0; 
+  padding:0; 
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #c26b027d;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.logo-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  
+}
+
+.topbar{
+  background: #a67c3c;    /* Marrón panadería */
+  width: 100%;            /* Asegura que ocupe todo el ancho */
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;   /* 👉 lo vuelve circular */
+  object-fit: cover;    /* 👉 asegura que la imagen encaje bien dentro */
+}
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.container img {
+  width: 400px;          /* Ajustá el tamaño */
+  height: 400px;         /* Igual al ancho */
+  border-radius: 100%;   /* Logo circular */
+  object-fit: cover;    /* Evita deformaciones */
+  display: block;
+  margin: 0 auto;
+}
+.hero-img{
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  display: block;
+
+}
+
+.intro{
+  background: white;
+  padding: 12px 14px;
+  border: 1px solid #fff2d3;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+  color: #333;
+  text-align: justify;   /* 👉 Justifica el texto */
+  font-size:larger;
+  font-weight: bold;
+}
+
+h2{
+  margin: 24px 0 12px;
+  color: #8b5e3c;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.card{
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+  display: grid;
+  gap: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 8px;
+  max-height: 150px;
+}
+
+.card-h3{ 
+  margin: 0; 
+}
+
+.card-p{ 
+  margin: 0; 
+  color: #444; 
+  font-size: .95rem; 
+}
+
+.badge{
+  display: inline-block;
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: #ffae4b;
+  color: #5a402a;
+}
+
+button{
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+button:hover{
+  border-color: #e88f4b;
+  box-shadow: 0 0 0 3px rgba(186, 155, 132, 0.15);
+}
+
+.contact{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  justify-items: stretch;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.footer{
+  margin-top: 24px;
+  padding: 12px 16px;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
